@@ -21,7 +21,7 @@ function whatsapp() {
   if(false) {
     location.href = 'whatsapp://send?phone=5545998438128&text=';
   } else {
-    location.href = 'https://api.whatsapp.com/send?phone=5545998438128&text=';
+    window.open("https://api.whatsapp.com/send?phone=5545998438128&text=");
   }
 }
 
@@ -52,7 +52,7 @@ function instagram() {
     window.location.href = "instagram://user?username=FernandoBrito.Adv";
   }
   if (!getMobileOS()) {
-    window.location.href = "https://www.instagram.com/fernandobrito.adv/";
+window.open("https://www.instagram.com/fernandobrito.adv/");
   }
 }
 
@@ -64,7 +64,7 @@ function facebook() {
     window.location.href = "fb://profile/100001383777344";
   }
   if (!getMobileOS()) {
-    window.location.href = "https://www.facebook.com/fernandobritopro";
+    window.open("https://www.facebook.com/fernandobritopro");
   }
 }
 
@@ -72,6 +72,6 @@ function share() {
   if(false) {
   location.href = 'whatsapp://send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://site.com';
   } else {
-    location.href = 'https://api.whatsapp.com/send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://site.com';
+    window.open("https://api.whatsapp.com/send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://site.com");
   }
 }
