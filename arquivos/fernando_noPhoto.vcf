@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Fernando Brito
+N;CHARSET=UTF-8:(Advogado);Fernando;Brito;
+ORG:Advogado ⚖️
+GENDER:M
+BDAY:19990919
+TEL;TYPE=WORK,VOICE:045991164631
+TEL;TYPE=CELL:+5545991164631
+ADR;CHARSET=UTF-8;TYPE=WORK:;;Rua Duque de Caxias\, nº 586 - Centro;, Nova Aurora/PR;, CEP:85410-000
+URL;CHARSET=UTF-8:https://fernandobrito.adv.br/
+X-SOCIALPROFILE;TYPE=facebook:https://www.facebook.com/100092749495737/
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/fernandobritopro/
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/fernandobrito.adv/
+REV:2023-05-31T13:59:36.126Z
+END:VCARD

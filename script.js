@@ -26,7 +26,7 @@ function whatsapp() {
 }
 
 function mail() {
-  location.href='mailto:fernandobrito.adv@hotmail.com';
+  location.href='mailto:contato@fernandobrito.adv.br';
 }
 
 function getMobileOS() {
@@ -70,8 +70,8 @@ function facebook() {
 
 function share() {
   if(false) {
-  location.href = 'whatsapp://send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://fernandobrito.adv.br';
+  location.href = 'whatsapp://send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br';
   } else {
-    window.open("https://api.whatsapp.com/send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://fernandobrito.adv.br");
+    window.open("https://api.whatsapp.com/send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br");
   }
 }
