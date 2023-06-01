@@ -58,10 +58,10 @@ window.open("https://www.instagram.com/fernandobrito.adv/");
 
 function facebook() {
   if (getMobileOS() == "Android") {
-    window.location.href = "fb://profile/100001383777344";
+    window.location.href = "fb://profile/100092749495737";
   }
   if (getMobileOS() == "iOS") {
-    window.location.href = "fb://profile/100001383777344";
+    window.location.href = "fb://profile/100092749495737";
   }
   if (!getMobileOS()) {
     window.open("https://www.facebook.com/fernandobritopro");
