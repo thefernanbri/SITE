@@ -7,11 +7,12 @@
   </meta>
   <title>Fernando Brito | Advogado</title>
   <link href="./style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="./modal.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </link>
 </head>
-  
+
 <div class="banner">
   <video autoplay loop poster="./images/background-2.jpg" muted plays-inline>
     <source src="./video/backgroundVideo.mp4" type="video/mp4">
@@ -19,6 +20,7 @@
 </div>
   
 <body>
+  
   <div id="vanta"></div>
   <div data-aos="fade-zoom-in" data-aos-delay="1000" id="container">
     <div id="infoContainer" class="infoContainer">
@@ -64,7 +66,7 @@
         <a rel="nofollow" href="#" onClick="facebook()">
           <li>
             <i class="fa-brands fa-facebook"></i>
-            <p>FaceBook</p>
+            <p>Facebook</p>
           </li>
         </a>
         <a rel="nofollow" target="_blank" href="https://drive.google.com/file/d/1p7oRkcsFmAkvjJlYKQE5RpWcDT7uFG5K/view?usp=sharing">
@@ -85,14 +87,28 @@
           <i class="fa-solid fa-share-nodes fa-beat"></i>
           <p>Compatilhar</p>
         </li>
+      </a>
+        <li id="qr-code">
+			<a href="#m2-o" class="link-1" id="m2-c"></a>
+			<div class="modal-container" id="m2-o" style="--m-background: hsla(0, 0%, 0%, .4);">
+			  <div class="modal">
+				<h1 class="modal__title">Cartão de Visitas</h1>
+				<img src="./images/QR.png" class="QR" width="200" height="259">
+				<p class="modal__text">Acesse com a câmera do celular para salvar o contato na agenda.</p>
+				<a href="#m2-c" class="link-2"></a>
+			  </div>
+			</div>
+    <i class="fa-sharp fa-solid fa-qrcode"></i>
+		<p>QR Code</p>
+        </li>
         </a>
       <a rel="nofollow" href="#" onClick="share()">
         <li>
           <p></p>
         </li>
-        </a>
-      </ul>
-  </body>
+      </a>
+      </ul> 
+</body>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"></script>

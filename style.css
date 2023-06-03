@@ -125,7 +125,10 @@ i{
   color: #00acee;
 }
 .fa-share-nodes{
-  color:#4d894d
+  color:#4d894d;
+}
+.fa-qrcode{
+  color: white;
 }
 
 /* RESPONSIVE CSS CODE */
@@ -147,6 +150,7 @@ i{
   .infoContainer ul li{
     width: 75%;
   }
+}
 
 @media(min-aspect-radio: 16/9){
   .banner video{

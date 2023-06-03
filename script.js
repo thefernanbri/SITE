@@ -75,3 +75,15 @@ function share() {
     window.open("https://api.whatsapp.com/send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br");
   }
 }
+
+// Obtém o elemento <p> pelo seu ID
+var qrCodeParagraph = document.getElementById('qr-code');
+
+// Adiciona um evento de clique ao elemento <p>
+qrCodeParagraph.addEventListener('click', function() {
+  // Obtém o elemento <a> pelo seu ID
+  var link1 = document.getElementById('m2-c');
+  
+  // Clica no link1
+  link1.click();
+});
