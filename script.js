@@ -1,6 +1,6 @@
 VANTA.BIRDS({
   el: "#vanta",
-  mouseControls:true,
+  mouseControls: true,
   touchControls: true,
   gyroControls: true,
   minHeight: 600.00,
@@ -9,7 +9,7 @@ VANTA.BIRDS({
   scaleMobile: 1.00,
   color1: 0x430a0a,
   color2: 0x981515,
-  
+
   quantity: 2.00, //This is for how much birds you want to display in the animation
   backgroundAlpha: 0.0,
   alignment: 77.00
@@ -18,7 +18,7 @@ VANTA.BIRDS({
 AOS.init();
 
 function whatsapp() {
-  if(false) {
+  if (false) {
     location.href = 'whatsapp://send?phone=5545991164631&text=';
   } else {
     window.open("https://api.whatsapp.com/send?phone=5545991164631&text=");
@@ -26,7 +26,7 @@ function whatsapp() {
 }
 
 function mail() {
-  location.href='mailto:contato@fernandobrito.adv.br';
+  location.href = 'mailto:contato@fernandobrito.adv.br';
 }
 
 function getMobileOS() {
@@ -39,9 +39,9 @@ function getMobileOS() {
 
   // iOS detection 
   if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-  return "iOS";
+    return "iOS";
   }
-    return false;
+  return false;
 }
 
 function instagram() {
@@ -52,7 +52,7 @@ function instagram() {
     window.location.href = "instagram://user?username=FernandoBrito.Adv";
   }
   if (!getMobileOS()) {
-window.open("https://www.instagram.com/fernandobrito.adv/");
+    window.open("https://www.instagram.com/fernandobrito.adv/");
   }
 }
 
@@ -69,8 +69,8 @@ function facebook() {
 }
 
 function share() {
-  if(false) {
-  location.href = 'whatsapp://send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br';
+  if (false) {
+    location.href = 'whatsapp://send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br';
   } else {
     window.open("https://api.whatsapp.com/send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br");
   }
@@ -78,12 +78,21 @@ function share() {
 
 // Obtém o elemento <p> pelo seu ID
 var qrCodeParagraph = document.getElementById('qr-code');
-
 // Adiciona um evento de clique ao elemento <p>
 qrCodeParagraph.addEventListener('click', function() {
   // Obtém o elemento <a> pelo seu ID
   var link1 = document.getElementById('m2-c');
-  
+
+  // Clica no link1
+  link1.click();
+});
+// Obtém o elemento <p> pelo seu ID
+var qrCodeParagraph = document.getElementById('qr-code-site');
+// Adiciona um evento de clique ao elemento <p>
+qrCodeParagraph.addEventListener('click', function() {
+  // Obtém o elemento <a> pelo seu ID
+  var link1 = document.getElementById('m1-c');
+
   // Clica no link1
   link1.click();
 });
