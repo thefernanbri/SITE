@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?familys=Poppins:wght@700&display=swap');
+
+.classe-especifica * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.classe-especifica body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.classe-especifica h2 {
+  position: relative;
+  font-size: 9vw; 
+  color: #252839; 
+  -webkit-text-stroke: 0.3vw #000000;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.classe-especifica h2::before { 
+  content: attr(data-text);
+  position: absolute; 
+  top: 0;
+  left: 0; 
+  width: 0; 
+  height: 100%; 
+  color: #ad0e0e; 
+  -webkit-text-stroke: 0vw #383d52;
+  border-right: 2px solid #ad0e0e;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+
+.classe-especifica .loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #252839;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.classe-especifica .loader-wrapper2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.classe-especifica .loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: 4px solid #fff;
+  animation: loader 2s infinite ease;
+}
+
+.classe-especifica .loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
+
+@keyframes animate {
+  0%, 10%, 100% {
+    width: 0;
+  }
+  70%, 90% {
+    width: 100%;
+  }
+}
