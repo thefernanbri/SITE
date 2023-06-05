@@ -1,0 +1,7 @@
+document.getElementById("numeroProcesso").value = "00012432820088160082";
+document.getElementById("nomeParte").value = "Fernando Augusto Brito";
+document.getElementById("cpfCnpj").value = "10412665964";
+document.getElementById("nomeAdvogado").value = "";
+document.getElementById("oab").value = "";
+document.querySelector('select[name="oabUF"]').value = "PR";
+document.querySelector('select[name="codComarca"]').value = "161";
