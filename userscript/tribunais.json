@@ -1,0 +1,14 @@
+[
+  {
+    pattern tj-rs,
+    destination httpswww.tjrs.jus.brnovobuscas-solraba=jurisprudencia&q=&conteudo_busca=ementa_completa
+  },
+  {
+    pattern tj-pr,
+    destination httpsportal.tjpr.jus.brjurisprudencia
+  },
+  {
+    pattern tj-sp,
+    destination httpsesaj.tjsp.jus.brcjsgconsultaCompleta.do
+  }
+]
