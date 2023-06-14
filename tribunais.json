@@ -11,4 +11,8 @@
     "pattern": "tj-sp",
     "destination": "https://esaj.tjsp.jus.br/cjsg/consultaCompleta.do"
   }
+  {
+    "pattern": "tj-mg",
+    "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
+  }
 ]
