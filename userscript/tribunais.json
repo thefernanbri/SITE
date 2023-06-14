@@ -1,14 +1,18 @@
 [
   {
-    pattern tj-rs,
-    destination httpswww.tjrs.jus.brnovobuscas-solraba=jurisprudencia&q=&conteudo_busca=ementa_completa
+    "pattern": "tj-rs",
+    "destination": "https://www.tjrs.jus.br/novo/buscas-solr/?aba=jurisprudencia&q=&conteudo_busca=ementa_completa"
   },
   {
-    pattern tj-pr,
-    destination httpsportal.tjpr.jus.brjurisprudencia
+    "pattern": "tj-pr",
+    "destination": "https://portal.tjpr.jus.br/jurisprudencia/"
   },
   {
-    pattern tj-sp,
-    destination httpsesaj.tjsp.jus.brcjsgconsultaCompleta.do
+    "pattern": "tj-sp",
+    "destination": "https://esaj.tjsp.jus.br/cjsg/consultaCompleta.do"
+  }
+  {
+    "pattern": "tj-mg",
+    "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
   }
 ]
