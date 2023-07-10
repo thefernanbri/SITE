@@ -73,9 +73,13 @@ function facebook() {
 }
 
 function share() {
-  if (false) {
-    location.href = 'whatsapp://send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br';
-  } else {
+  if (getMobileOS() == "Android") {
+    window.location.href = "whatsapp://send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br";
+  }
+  if (getMobileOS() == "iOS") {
+    window.location.href = "whatsapp://send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br";
+  }
+  if (!getMobileOS()) {
     window.open("https://api.whatsapp.com/send?phone&text=Este é o Cartão de Visita do Advogado *Fernando Brito*: https://bio.fernandobrito.adv.br");
   }
 }
