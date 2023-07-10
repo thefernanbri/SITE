@@ -18,9 +18,13 @@ VANTA.BIRDS({
 AOS.init();
 
 function whatsapp() {
-  if (false) {
-    location.href = 'whatsapp://send?phone=5545991164631&text=';
-  } else {
+  if (getMobileOS() == "Android") {
+    window.location.href = "whatsapp://send?phone=5545991164631&text=";
+  }
+  if (getMobileOS() == "iOS") {
+    window.location.href = "whatsapp://send?phone=5545991164631&text=";
+  }
+  if (!getMobileOS()) {
     window.open("https://api.whatsapp.com/send?phone=5545991164631&text=");
   }
 }
