@@ -58,6 +58,7 @@ body {
     width: 100%;
     overflow: scroll;
     margin-top: 20px;
+	overflow-x: clip;
   }
 
 .infoContainer ul li{
