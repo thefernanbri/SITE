@@ -126,11 +126,21 @@ i{
   color: #00acee;
 }
 .fa-share-nodes{
+  z-index: -1;
   color:#4d894d;
 }
 .fa-qrcode{
   color: white;
 }
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #7c0115;
+  border-radius: 100rem;
+}	
 
 /* RESPONSIVE CSS CODE */
 @media(max-width: 1033px){

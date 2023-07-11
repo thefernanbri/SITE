@@ -174,6 +174,7 @@ when users will click/enter button(link) browser will add a #id in a url and whe
   height: 4rem;
   border: 1px solid hsla(0, 0%, 100%, .2);
   border-radius: 100rem;
+  align: center;
   color: inherit;
   font-size: 2.2rem;
   position: absolute;
