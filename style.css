@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  overflow: clip;
+  overflow: hidden;
   background-image: url('./images/background-2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,13 +28,13 @@ body {
 #container {
   height: 100vh;
   width: 100%;
-  overflow: hide;
+  overflow: hidden;
 }
 
 #infoContainer {
   display: flex;
   flex-direction: column;
-  Letter-spacing: 1px;
+  letter-spacing: 1px;
   align-items: center;
   font-size: 18px;
   justify-content: center;
@@ -169,3 +169,4 @@ i{
     height: auto;
   }
 }
+

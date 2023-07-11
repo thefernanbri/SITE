@@ -94,6 +94,8 @@ qrCodeParagraph.addEventListener('click', function() {
   // Clica no link1
   link1.click();
 });
+
+
 // Obtém o elemento <p> pelo seu ID
 var qrCodeParagraph = document.getElementById('qr-code-site');
 // Adiciona um evento de clique ao elemento <p>
