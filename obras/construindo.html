@@ -9,7 +9,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="carregamento.css" />
+  <link rel="stylesheet" type="text/css" href="carregamento.css" />
+	<div class="loader-wrapper">
+	  <span class="loader"><span class="loader-inner"></span></span>
+	</div>
+
 </head> 
 <body>
 <div class="content">
@@ -74,16 +78,8 @@
         <i class="fa fa-pause-circle-o"></i>
       </button>
     </div>
-  
-<div class="classe-especifica">
-  <style> background-color: #252839; </style>
-  <div class="loader-wrapper">
-    <h2 data-text="Carregando...">Carregando...</h2>
-  <div class="loader-wrapper2">
-    <span class="loader"><span class="loader-inner"></span></span>
-  </div>
-</div>
-</div>
+ 
+	
 </footer>
 </div>
 
@@ -103,10 +99,10 @@
       });
     });
   </script>
-  <script>
-    $(window).on("load",function(){
-      $(".loader-wrapper").fadeOut("slow");
-    });
-  </script>
+<script>
+	$(window).on("load", function() {
+	  $(".loader-wrapper").addClass("hidden");
+	});
+</script>
 </body>
 </html>

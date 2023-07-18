@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <img src="https://picsum.photos/3000/3000/?random" />
+    </div>
+
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+		$(window).on("load", function() {
+		  $(".loader-wrapper").addClass("hidden");
+		});
+    </script>
+  </body>
+</html>
