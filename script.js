@@ -48,6 +48,18 @@ function getMobileOS() {
   return false;
 }
 
+function telefone() {
+  if (getMobileOS() == "Android") {
+    window.location.href = "tel:045991164631";
+  }
+  if (getMobileOS() == "iOS") {
+    window.location.href = "tel:045991164631";
+  }
+  if (!getMobileOS()) {
+	window.location.href = "#m3-o";
+  }
+}
+
 function instagram() {
   if (getMobileOS() == "Android") {
     window.location.href = "instagram://user?username=FernandoBrito.Adv";
@@ -84,17 +96,35 @@ function share() {
   }
 }
 
-// Obtém o elemento <p> pelo seu ID
-var qrCodeParagraph = document.getElementById('qr-code');
-// Adiciona um evento de clique ao elemento <p>
-qrCodeParagraph.addEventListener('click', function() {
+// Obtém o elemento <li> pelo seu ID
+var qrCodeListItem = document.getElementById('qr-code');
+
+// Adiciona um evento de clique ao elemento <li>
+qrCodeListItem.addEventListener('click', function() {
   // Obtém o elemento <a> pelo seu ID
   var link1 = document.getElementById('m2-c');
 
   // Clica no link1
   link1.click();
+
+  // Altera o CSS do elemento <li> com ID "qr-code"
+  qrCodeListItem.style.position = 'relative';
 });
 
+// Obtém o elemento <a> com classe "link-2"
+var link2 = document.querySelector('a.link-2');
+
+// Adiciona um evento de clique ao link2
+link2.addEventListener('click', function() {
+  // Obtém novamente o elemento <li> pelo seu ID
+  var qrCodeListItem = document.getElementById('qr-code');
+
+  // Altera o CSS do elemento <li> com ID "qr-code" para "inherit"
+  qrCodeListItem.style.position = 'inherit';
+});
+
+
+// FUNÇÃO MODAL QR CODE SITE //
 
 // Obtém o elemento <p> pelo seu ID
 var qrCodeParagraph = document.getElementById('qr-code-site');

@@ -7,18 +7,28 @@
 body {
   font-family: sans-serif;
   overflow: hidden;
-  background-image: url('./images/background-2.jpg');
+  background-image: url('./images/background-2_compressed.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
   background-position: center
 }
 
-.banner video{
-  position: absolute;
-  right: 0;
-  bottom: 0;
+/* Estilize o elemento .banner para ocupar a página inteira */
+.banner {
+  position: fixed; /* Alterando de absolute para fixed */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
+}
+
+/* Estilize o elemento <video> para cobrir a página inteira */
+.banner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Certifica-se de que o vídeo ocupe todo o espaço do contêiner mantendo a proporção */
 }
 
 #vanta {
@@ -31,7 +41,7 @@ body {
   overflow: hidden;
 }
 
-#infoContainer {
+.infoContainer {
   display: flex;
   flex-direction: column;
   letter-spacing: 1px;
@@ -43,21 +53,72 @@ body {
   z-index: 999;
 }
 
-.infoContainer .profileImage{
+.infoContainer .profileImage {
   border-radius: 100%;
   height: 120px;
 }
 
+.infoContainer .box {
+  position: relative; /* Mantendo position: relative */
+  margin-top: 0px; /* Ajuste o valor conforme necessário */
+  z-index: -20;
+  max-width: 438px;
+  max-height: 143px;
+  margin-bottom: -133px;
+}
+
 .infoContainer .username{
-  color: white;
-  margin-top: 8px;
-  font-size: 20px;
+  font-family: 'Pharmount Personal Use Only', sans-serif;
+  color: #62000000;
+  margin-top: 10px;
+  font-size: 5rem;
+  position: relative;
+  top: 4px;
+  left: -1px;
+}
+
+.infoContainer .usernameVERMELHO{
+  font-family: 'Pharmount Personal Use Only', sans-serif;
+  color: #620000;
+  margin-top: 10px;
+  font-size: 5rem;
+  text-shadow: 1px 1px 2px #ff0000,
+	1px 4px 6px rgba(16,16,16,0.4),
+	1px 9px 10px rgba(16,16,16,0.2),
+	1px 10px 35px rgba(16,16,16,0.2),
+	1px 13px 60px rgba(16,16,16,0.4);
+  position: relative;
+  top: 4px;
+  left: -1px;
+}
+
+.infoContainer .OAB{
+  font-family: 'Nunito', sans-serif;
+  color: #62000000;
+  margin-top: 19px;
+  font-size: 12px;
+  position: relative;
+  bottom: 28px;
+}
+
+.infoContainer .OABvermelho{
+  font-family: 'Nunito', sans-serif;
+  color: #620000;
+  margin-top: 19px;
+  font-size: 12px;
+  position: relative;
+  bottom: 28px;
+  text-shadow: 1px 1px 2px #ff0000,
+	1px 4px 6px rgba(16,16,16,0.4),
+	1px 9px 10px rgba(16,16,16,0.2),
+	1px 10px 35px rgba(16,16,16,0.2),
+	1px 13px 60px rgba(16,16,16,0.4);
 }
 
 .infoContainer ul{
     width: 100%;
     overflow: scroll;
-    margin-top: 20px;
+    margin-top: 8px;
 	overflow-x: clip;
   }
 
@@ -78,6 +139,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.6);
   transition: all 0.3s;
+  margin-bottom: 10px;
 }
 
 .infoContainer ul li:hover {
@@ -155,6 +217,15 @@ i{
     height: 5vh;
     padding: 10px 0;
   }
+	.infoContainer .username{
+		top: 8px;
+		font-size: 4.7rem;
+	}
+	.infoContainer .OAB{
+		bottom: 14px;
+	}
+	.infoContainer ul{
+	    margin-top: 20px;
 }
 
 @media(max-width: 500px){

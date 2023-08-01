@@ -1,6 +1,7 @@
 body, html {
-    height: 100%;
-    text-align: center;
+  height: 100%;
+  text-align: center;
+  z-index: 9999;
 }
 
 body {
@@ -16,12 +17,14 @@ body {
   display:flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .loader-wrapper {
   opacity: 1;
   transition: opacity 0.5s ease;
 }
+
 .loader-wrapper.hidden {
   opacity: 0;
 }
@@ -31,41 +34,55 @@ body {
   width: 30px;
   height: 30px;
   position: absolute;
-  border: 4px solid #Fff;
+  border: 4px solid #FFF;
   animation: loader 2s infinite ease;
 }
+
 .loader-inner {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #fff;
+  background-color: #FFF;
   animation: loader-inner 2s infinite ease-in;
 }
 
 @keyframes loader {
-  0% { transform: rotate(0deg);}
-  25% { transform: rotate(180deg);}
-  50% { transform: rotate(180deg);}
-  75% { transform: rotate(360deg);}
-  100% { transform: rotate(360deg);}
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(180deg); }
+  50% { transform: rotate(180deg); }
+  75% { transform: rotate(360deg); }
+  100% { transform: rotate(360deg); }
 }
 
 @keyframes loader-inner {
-  0% { height: 0%;}
-  25% { height: 0%;}
-  50% { height: 100%;}
-  75% { height: 100%;}
-  100% { height: 0%;}
+  0% { height: 0%; }
+  25% { height: 0%; }
+  50% { height: 100%; }
+  75% { height: 100%; }
+  100% { height: 0%; }
 }
 
-@keyframes animate
-{
-  0%,10%,100%
-  {
+@keyframes animate {
+  0%, 10%, 100% {
     width: 0;
   }
-  70%,90%
-  {
-    width: 100%}
+  70%, 90% {
+    width: 100%;
+  }
+}
+
+/* Estilos para dispositivos móveis (largura máxima de 767 pixels) */
+@media screen and (max-width: 767px) {
+  .loader-wrapper {
+    width: 127%;
+    height: 127%;
+  }
+}
+
+/* Estilos para dispositivos maiores (largura mínima de 768 pixels) */
+@media screen and (min-width: 768px) {
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
   }
 }

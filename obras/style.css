@@ -34,6 +34,7 @@ a:link, a:visited {
   text-align: center;
   white-space: nowrap;
 }
+
 .main span {
   display: block;
   position: relative;
@@ -110,6 +111,7 @@ a:link, a:visited {
     opacity: 1;
   }
 }
+
 @media screen and (min-width: 1000px) {
   .main {
     width: 400px;
@@ -121,5 +123,11 @@ a:link, a:visited {
   }
   .main .nome {
     font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main .webdev {
+	font-size: 10vh;
   }
 }
