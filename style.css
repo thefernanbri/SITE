@@ -92,7 +92,7 @@ body {
   left: -1px;
 }
 
-.infoContainer .OAB{
+.infoContainer .OABx{
   font-family: 'Nunito', sans-serif;
   color: #62000000;
   margin-top: 19px;
@@ -101,14 +101,34 @@ body {
   bottom: 28px;
 }
 
-.infoContainer .OABvermelho{
+.infoContainer .OAB{
   font-family: 'Nunito', sans-serif;
   color: #620000;
   margin-top: 19px;
   font-size: 12px;
   position: relative;
-  bottom: 28px;
+  bottom: -6px;
   text-shadow: 1px 1px 2px #ff0000,
+	1px 4px 6px rgba(16,16,16,0.4),
+	1px 9px 10px rgba(16,16,16,0.2),
+	1px 10px 35px rgba(16,16,16,0.2),
+	1px 13px 60px rgba(16,16,16,0.4);
+  background-color: #fff;
+  border-radius: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+
+.infoContainer .OABx{
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  margin-top: 19px;
+  font-size: 12px;
+  position: relative;
+  bottom: -6px;
+  text-shadow: 1px 1px 2px #000000,
 	1px 4px 6px rgba(16,16,16,0.4),
 	1px 9px 10px rgba(16,16,16,0.2),
 	1px 10px 35px rgba(16,16,16,0.2),
