@@ -11,7 +11,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
-  background-position: center
+  background-position: center top
 }
 
 /* Estilize o elemento .banner para ocupar a página inteira */
@@ -22,11 +22,6 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url('./images/background-2_compressed.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: black;
-  background-position: center top; /* Ajuste a posição vertical da imagem */
 }
 
 /* Estilize o elemento <video> para cobrir a página inteira */
