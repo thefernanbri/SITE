@@ -107,7 +107,7 @@ body {
   margin-top: 19px;
   font-size: 12px;
   position: relative;
-  bottom: -6px;
+  bottom: -5px;
   text-shadow: 1px 1px 2px #ff0000,
 	1px 4px 6px rgba(16,16,16,0.4),
 	1px 9px 10px rgba(16,16,16,0.2),
@@ -242,7 +242,7 @@ i{
 		font-size: 4.7rem;
 	}
 	.infoContainer .OAB{
-		bottom: -12px;
+		bottom: -6px;
 	}
 	.infoContainer ul{
 	    margin-top: 20px;
