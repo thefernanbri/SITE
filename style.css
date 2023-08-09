@@ -143,6 +143,7 @@ body {
   }
 
 .infoContainer ul li{
+  font-family: 'Nunito', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
