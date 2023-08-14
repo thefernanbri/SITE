@@ -135,20 +135,6 @@ body {
 	1px 13px 60px rgba(16,16,16,0.4);
 }
 
-h3{
-  font-family: 'Nunito', sans-serif;
-  color: #620000;
-  font-size: 12px;
-  position: relative;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 10px;
-  padding-left: 8px;
-  padding-right: 8px;
-  padding-bottom: 1px;
-  padding-top: 1px;
-}
-
 .infoContainer ul{
     width: 100%;
     overflow: scroll;
