@@ -10,7 +10,11 @@
   {
     "pattern": "tj-sp",
     "destination": "https://esaj.tjsp.jus.br/cjsg/consultaCompleta.do"
-  }
+  },
+  {
+    "pattern": "tj-rj",
+    "destination": "http://www4.tjrj.jus.br/ejuris/ConsultarJurisprudencia.aspx"
+  },
   {
     "pattern": "tj-mg",
     "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
