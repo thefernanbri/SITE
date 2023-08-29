@@ -16,6 +16,10 @@
     "destination": "http://www4.tjrj.jus.br/ejuris/ConsultarJurisprudencia.aspx"
   },
   {
+    "pattern": "tj-ba",
+    "destination": "https://jurisprudencia.tjba.jus.br/"
+  },
+  {
     "pattern": "tj-mg",
     "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
   }
