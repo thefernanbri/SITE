@@ -20,6 +20,10 @@
     "destination": "https://jurisprudencia.tjba.jus.br/"
   },
   {
+    "pattern": "tj-pi",
+    "destination": "https://www.tjpi.jus.br/e-tjpi/home/jurisprudencia"
+  },
+  {
     "pattern": "tj-mg",
     "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
   }
