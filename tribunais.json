@@ -26,5 +26,9 @@
   {
     "pattern": "tj-mg",
     "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
+  },
+  {
+    "pattern": "stj",
+    "destination": "https://processo.stj.jus.br/SCON/"
   }
 ]
