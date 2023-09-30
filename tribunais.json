@@ -28,6 +28,10 @@
     "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
   },
   {
+    "pattern": "trf-4",
+    "destination": "https://jurisprudencia.trf4.jus.br/pesquisa/pesquisa.php?tipo=1"
+  },
+  {
     "pattern": "stj",
     "destination": "https://processo.stj.jus.br/SCON/"
   }
