@@ -28,6 +28,10 @@
     "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
   },
   {
+    "pattern": "tj-df",
+    "destination": "https://pesquisajuris.tjdft.jus.br/IndexadorAcordaos-web/sistj?visaoId=tjdf.sistj.acordaoeletronico.buscaindexada.apresentacao.VisaoBuscaAcordao"
+  },
+  {
     "pattern": "trf-4",
     "destination": "https://jurisprudencia.trf4.jus.br/pesquisa/pesquisa.php?tipo=1"
   },
