@@ -216,6 +216,19 @@ i{
   color: white;
 }
 
+#footer {
+  background-color: #591823;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  z-index: 1000; /* Certifique-se de que o z-index seja maior que o z-index do conteúdo principal */
+  text-transform: uppercase;
+}
+
+
 ::-webkit-scrollbar{
   width:10px;
 }

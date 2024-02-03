@@ -136,3 +136,6 @@ qrCodeParagraph.addEventListener('click', function() {
   // Clica no link1
   link1.click();
 });
+
+// FUNÇÃO ANO FOOTER //
+document.getElementById('current-year').innerText = new Date().getFullYear();
