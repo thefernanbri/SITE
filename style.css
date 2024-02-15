@@ -216,8 +216,29 @@ i{
   color: white;
 }
 
+
+.SeloOAB {
+    display: block;
+    margin: 0 auto;
+	width: 170px;
+    height: 170px;
+	padding: 3px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 50%;
+	box-shadow: 0 5px 0 rgba(0, 0, 0, 0.6);
+	transition: all 0.3s;
+	margin-bottom: 10px;
+}
+
+.SeloOAB:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.6);
+  transform: translateY(2px);
+}
+
 #footer {
-  background-color: #591823;
+  background-color: #820000;
   color: white;
   text-align: center;
   padding: 10px;
@@ -227,7 +248,6 @@ i{
   z-index: 1000; /* Certifique-se de que o z-index seja maior que o z-index do conteúdo principal */
   text-transform: uppercase;
 }
-
 
 ::-webkit-scrollbar{
   width:10px;
@@ -263,6 +283,12 @@ i{
 }
 
 @media(max-width: 500px){
+  .SeloOAB {
+	width: 18vh;
+    height: 18vh;
+	padding: 2px;
+	margin-bottom: 5px;
+  }
   .infoContainer ul li{
     width: 75%;
   }
