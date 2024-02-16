@@ -1,6 +1,6 @@
 ffmpeg -i backgroundVideox.mp4 -c:v libx264 -c:a aac backgroundVideo.mp4
 
-mp4fragment --fragment-duration 500 backgroundVideo.mp4 output.mp4
+mp4fragment --fragment-duration 2000 backgroundVideo.mp4 output.mp4
 mp4dash --output-dir=video output.mp4
 
 
@@ -8,4 +8,3 @@ mp4fragment backgroundVideo.mp4 output.mp4
 mp4dash --output-dir=video output.mp4
 
 mp4dash output.mp4
-

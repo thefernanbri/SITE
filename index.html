@@ -208,6 +208,11 @@
   <!-- Index SEO -->
   
   <script>
+	// Função para inicializar o player quando a página é carregada
+	document.addEventListener('DOMContentLoaded', function() {
+		initPlayer();
+	});
+
 	function initPlayer() {
 		const videoElement = document.getElementById('video-player');
 
@@ -216,24 +221,6 @@
 
 		// Criação do player Shaka Player
 		const player = new shaka.Player(videoElement);
-
-		// Configurações de buffering
-		const config = {
-			streaming: {
-				bufferBehind: 60, // aumenta o buffer atrás do ponto de reprodução atual para 60 segundos
-				bufferAhead: 60, // aumenta o buffer à frente do ponto de reprodução atual para 60 segundos
-			}
-		};
-
-		// Inicialização do player com as configurações de buffering
-		player.configure(config);
-
-		// Espera até que o vídeo possa ser reproduzido sem interrupções
-		videoElement.addEventListener('canplaythrough', function() {
-			// O vídeo pode ser reproduzido sem interrupções
-			console.log('Vídeo carregado com sucesso!');
-			videoElement.style.visibility = 'visible'; // Torna o vídeo visível
-		});
 
 		// Inicialização do player e carregamento do conteúdo
 		player.load(manifestUrl).then(function() {
