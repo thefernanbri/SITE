@@ -207,7 +207,7 @@
   <p class="importante">Atendemos de forma online, simples e rápida para todo o estado do Paraná</p>
   <!-- Index SEO -->
   
-  <script>
+<script>
 	// Função para inicializar o player quando a página é carregada
 	document.addEventListener('DOMContentLoaded', function() {
 		initPlayer();
@@ -222,6 +222,13 @@
 		// Criação do player Shaka Player
 		const player = new shaka.Player(videoElement);
 
+		// Espera até que o vídeo possa ser reproduzido sem interrupções
+		videoElement.addEventListener('canplaythrough', function() {
+			// O vídeo pode ser reproduzido sem interrupções
+			console.log('Vídeo carregado com sucesso!');
+			videoElement.style.visibility = 'visible'; // Torna o vídeo visível
+		});
+
 		// Inicialização do player e carregamento do conteúdo
 		player.load(manifestUrl).then(function() {
 			// O conteúdo foi carregado e está pronto para reproduzir
@@ -232,6 +239,7 @@
 		});
 	}
 </script>
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.22/vanta.birds.min.js"></script>
