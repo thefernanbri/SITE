@@ -7,7 +7,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
-  background-image: url('./images/background-3_compressed.jpg');
+  background-image: url('./images/background-3_compressed.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
@@ -17,6 +17,10 @@ body {
 a {
 	color: inherit; /* Use a cor do texto pai */
 	text-decoration: none; /* Remova o sublinhado padrão */
+}
+
+.importante {
+  display: none;
 }
 
 /* Estilize o elemento .banner para ocupar a página inteira */
@@ -70,6 +74,7 @@ a {
   max-width: 438px;
   max-height: 143px;
   margin-bottom: -133px;
+  z-index: 100;
 }
 
 .infoContainer .username{
@@ -243,7 +248,7 @@ i{
 }
 
 #footer {
-  background-color: #820000;
+  background-color: #860000;
   color: white;
   text-align: center;
   padding: 10px;
@@ -259,7 +264,7 @@ i{
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #7c0115;
+  background-color: #790000;
   border-radius: 100rem;
 }	
 
