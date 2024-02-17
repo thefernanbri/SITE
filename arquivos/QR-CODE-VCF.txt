@@ -1,11 +1,29 @@
 BEGIN:VCARD
 VERSION:3.0
-FN;CHARSET=UTF-8:Fernando Brito
-N;CHARSET=UTF-8:(Advogado);Fernando;Brito;
+FN:Fernando Brito (Advogado)
 ORG:Advogado ⚖️
 BDAY:19990919
-EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:contato@fernandobrito.adv.br
+EMAIL;TYPE=WORK,INTERNET:contato@fernandobrito.adv.br
 TEL;TYPE=WORK,VOICE:045991164631
 TEL;TYPE=CELL:+5545991164631
-URL;CHARSET=UTF-8:https://fernandobrito.adv.br/
+URL:https://fernandobrito.adv.br/
+END:VCARD
+
+
+
+BEGIN:VCARD
+VERSION:3.0
+FN:Fernando Brito (Advogado)
+BDAY:19990919
+EMAIL:contato@fernandobrito.adv.br
+TEL;VOICE:045991164631
+TEL;TYPE=CELL:+5545991164631
+END:VCARD
+
+
+BEGIN:VCARD
+FN:Fernando Brito (Advogado)
+EMAIL:contato@fernandobrito.adv.br
+TEL;VOICE:045991164631
+TEL;TYPE=CELL:+5545991164631
 END:VCARD

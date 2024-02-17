@@ -147,6 +147,7 @@ when users will click/enter button(link) browser will add a #id in a url and whe
   position: relative;
   overflow: auto;
   z-index: 1;
+  text-align: center;
 }
 
 .modal__title {
@@ -171,19 +172,18 @@ when users will click/enter button(link) browser will add a #id in a url and whe
 }
 
 .modal__btn {
-  margin-top: 4rem;
+  margin-top: 1rem;
   padding: 1rem 1.6rem;
   border: 1px solid hsla(0, 0%, 100%, .2);
   border-radius: 100rem;
-
   color: inherit;
   background: transparent;
   font-size: 1.4rem;
   font-family: inherit;
   letter-spacing: .2rem;
-
   transition: .2s;
   cursor: pointer;
+  display: inline-block; /* Altera a exibição para inline-block para que as margens laterais automáticas funcionem */
 }
 
 .modal__btn:nth-of-type(1) {
