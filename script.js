@@ -57,6 +57,7 @@ function telefone() {
   }
   if (!getMobileOS()) {
 	window.location.href = "#m3-o";
+	window.location.href = "tel:045991164631";
   }
 }
 
@@ -139,3 +140,30 @@ qrCodeParagraph.addEventListener('click', function() {
 
 // FUNÇÃO ANO FOOTER //
 document.getElementById('current-year').innerText = new Date().getFullYear();
+
+// Função para carregar a imagem quando o botão for clicado
+function carregarImagem(btnId, imgId) {
+    var btn = document.getElementById(btnId);
+    var img = document.querySelector(imgId);
+    var carregada = false; // Variável para rastrear se a imagem já foi carregada
+
+    // Adicionar evento de clique ao botão
+    btn.addEventListener('click', function() {
+        // Verificar se a imagem já foi carregada
+        if (!carregada) {
+            // Obter o valor do atributo data-src
+            var src = img.getAttribute('data-src');
+
+            // Alterar o atributo src da imagem para iniciar o carregamento
+            img.setAttribute('src', src);
+
+            // Definir a variável carregada como true para indicar que a imagem foi carregada
+            carregada = true;
+        }
+    });
+}
+
+// Chamar a função para cada par de botão e imagem
+carregarImagem('telefone', '#m3-o img');
+carregarImagem('qr-code', '#m2-o img');
+carregarImagem('qr-code-site', '#m1-o img');

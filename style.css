@@ -7,11 +7,16 @@
 body {
   font-family: 'Nunito', sans-serif;
   overflow: hidden;
-  background-image: url('./images/background-2_compressed.jpg');
+  background-image: url('./images/background-3_compressed.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
   background-position: center top
+}
+
+a {
+	color: inherit; /* Use a cor do texto pai */
+	text-decoration: none; /* Remova o sublinhado padrão */
 }
 
 /* Estilize o elemento .banner para ocupar a página inteira */
@@ -222,11 +227,11 @@ i{
     margin: 0 auto;
 	width: 170px;
     height: 170px;
-	padding: 3px;
+	padding: 2px;
 	cursor: pointer;
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 50%;
-	box-shadow: 0 5px 0 rgba(0, 0, 0, 0.6);
+	box-shadow: 0 3px 0 rgba(0, 0, 0, 0.6);
 	transition: all 0.3s;
 	margin-bottom: 10px;
 }

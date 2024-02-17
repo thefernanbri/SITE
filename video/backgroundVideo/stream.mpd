@@ -7,12 +7,5 @@
       <SegmentTemplate duration="8308" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="1000"/>
       <Representation bandwidth="7695083" codecs="avc1.64002A" frameRate="2274167/75729" height="720" id="video/avc1" scanType="progressive" width="1280"/>
     </AdaptationSet>
-    <!-- Audio -->
-    <AdaptationSet lang="en" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
-      <SegmentTemplate duration="8308" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="1000"/>
-      <Representation audioSamplingRate="48000" bandwidth="254189" codecs="mp4a.40.2" id="audio/en/mp4a.40.2">
-        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"/>
-      </Representation>
-    </AdaptationSet>
   </Period>
 </MPD>
