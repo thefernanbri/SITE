@@ -36,6 +36,10 @@
     "destination": "https://jurisprudencia.trf4.jus.br/pesquisa/pesquisa.php?tipo=1"
   },
   {
+    "pattern": "trt-1",
+    "destination": "https://bibliotecadigital.trt1.jus.br/jspui/handle/1001/1978"
+  },
+  {
     "pattern": "stj",
     "destination": "https://processo.stj.jus.br/SCON/"
   }
