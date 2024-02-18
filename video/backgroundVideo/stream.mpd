@@ -1,16 +1,16 @@
 <?xml version="1.0" ?>
-<MPD mediaPresentationDuration="PT15.949S" minBufferTime="PT4.84S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011">
+<MPD mediaPresentationDuration="PT15.949S" minBufferTime="PT4.25S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011">
   <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-640 -->
   <Period>
     <!-- Video -->
     <AdaptationSet maxHeight="720" maxWidth="1280" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
-      <SegmentTemplate duration="4838" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="1000"/>
-      <Representation bandwidth="4180484" codecs="avc1.64001F" frameRate="30000/1001" height="720" id="video/avc1" scanType="progressive" width="1280"/>
+      <SegmentTemplate duration="4254" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="1000"/>
+      <Representation bandwidth="4567690" codecs="avc1.64001F" frameRate="30000/1001" height="720" id="video/avc1" scanType="progressive" width="1280"/>
     </AdaptationSet>
     <!-- Audio -->
     <AdaptationSet lang="en" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1">
-      <SegmentTemplate duration="4838" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="1000"/>
-      <Representation audioSamplingRate="44100" bandwidth="2978" codecs="mp4a.40.2" id="audio/en/mp4a.40.2">
+      <SegmentTemplate duration="3971" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1" timescale="1000"/>
+      <Representation audioSamplingRate="44100" bandwidth="3035" codecs="mp4a.40.2" id="audio/en/mp4a.40.2">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="1"/>
       </Representation>
     </AdaptationSet>
