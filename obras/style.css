@@ -126,8 +126,25 @@ a:link, a:visited {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .main .webdev {
-	font-size: 10vh;
-  }
+@media (max-width: 768px) {
+	.btn {
+		font-size: 30vw;
+		top: 35vh;
+		position: relative;
+	}
+	.bg-music {
+		scale: 2;
+	}
+	
+	.main {
+		top: 60%;
+	}
+	
+	.main .nome {
+		font-size: 25vh;
+	}
+	
+	.main .nome {
+		font-size: 11vh;
+	}
 }
