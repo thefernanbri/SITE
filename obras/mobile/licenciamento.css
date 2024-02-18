@@ -30,7 +30,7 @@ html, body {
 .container .what-is-up {
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   display: block;
   vertical-align: middle;
@@ -113,8 +113,22 @@ html, body {
   top: -2.2rem;
 }
 
+.logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0.15;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 @media only screen and (max-width: 768px) {
   /* Estilos para telas menores que 768px de largura */
+	.container .what-is-up {
+	  top: 40%;
+	}
 	.maintenance {
 	  font-size: 6vh;
 	  
