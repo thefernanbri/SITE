@@ -125,3 +125,9 @@ a:link, a:visited {
     font-size: 60px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main .webdev {
+	font-size: 10vh;
+  }
+}

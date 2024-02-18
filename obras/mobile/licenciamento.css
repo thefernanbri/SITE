@@ -5,7 +5,7 @@
 
 html, body {
   height: 100%;
-  background: #800000;
+  background: #860000;
   color: white;
   font-family: "Inconsolata", monospace;
   font-size: 100%;
@@ -41,6 +41,11 @@ html, body {
   display: block;
   margin-bottom: 2rem;
 }
+
+.assinatura {
+	margin: 3vh;
+}
+
 @-webkit-keyframes fa-spin-one {
   0% {
     transform: translateY(-2rem) rotate(0deg);
@@ -83,19 +88,47 @@ html, body {
   animation: fa-spin-two 2s infinite linear;
 }
 
-.made-by-me {
-  position: fixed;
-  text-decoration: none;
-  box-sizing: border-box;
-  right: 16px;
-  bottom: 16px;
-  width: 44px;
-  height: 44px;
-  display: block;
-  border-radius: 100%;
-  border: 2px solid white;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
-  font-size: 0px;
-  background: url("https://assets.codepen.io/50099/internal/avatars/users/default.png") no-repeat center;
-  background-size: cover;
+.dots {
+  display: inline-block; /* Garante que o span ocupe apenas o espaço necessário */
 }
+
+.dots:after {
+  content: "...";
+  display: inline-block; /* Garante que o conteúdo pseudo-elemento seja exibido na mesma linha */
+  animation: dots 1.5s infinite steps(1);
+}
+
+@keyframes dots {
+  0% { content: ""; }
+  25% { content: "."; }
+  50% { content: ".."; }
+  75% { content: "..."; }
+}
+
+.maintenancedots {
+  text-transform: uppercase;
+  margin-bottom: -2rem;
+  font-size: 3rem;
+  position: relative;
+  top: -2.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Estilos para telas menores que 768px de largura */
+	.maintenance {
+	  font-size: 6vh;
+	  
+	}
+	.assinatura {
+		margin: 2vh;
+		top: 2vh;
+		position: relative;
+	}
+  h2 {
+    font-size: 3vh;
+    text-align: center;
+	padding: 0 3px;
+  }
+}
+
+
