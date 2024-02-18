@@ -1,6 +1,6 @@
 ffmpeg -i backgroundVideoNOVO.mp4 -c:v libx264 -c:a aac backgroundVideoNOVO2.mp4
 
-mp4fragment --fragment-duration 5000 backgroundVideoNOVO2.mp4 output.mp4
+mp4fragment --fragment-duration 4000 backgroundVideoNOVO2.mp4 output.mp4
 mp4dash --output-dir=video output.mp4
 
 
