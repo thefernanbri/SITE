@@ -1,0 +1,50 @@
+[
+  {
+    "pattern": "tj-rs",
+    "destination": "https://www.tjrs.jus.br/novo/buscas-solr/?aba=jurisprudencia&q=&conteudo_busca=ementa_completa"
+  },
+  {
+    "pattern": "tj-pr",
+    "destination": "https://portal.tjpr.jus.br/jurisprudencia/"
+  },
+  {
+    "pattern": "tj-sp",
+    "destination": "https://esaj.tjsp.jus.br/cjsg/consultaCompleta.do"
+  },
+  {
+    "pattern": "tj-rj",
+    "destination": "http://www4.tjrj.jus.br/ejuris/ConsultarJurisprudencia.aspx"
+  },
+  {
+    "pattern": "tj-ba",
+    "destination": "https://jurisprudencia.tjba.jus.br/"
+  },
+  {
+    "pattern": "tj-pi",
+    "destination": "https://www.tjpi.jus.br/e-tjpi/home/jurisprudencia"
+  },
+  {
+    "pattern": "tj-mg",
+    "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
+  },
+  {
+    "pattern": "tj-df",
+    "destination": "https://pesquisajuris.tjdft.jus.br/IndexadorAcordaos-web/sistj?visaoId=tjdf.sistj.acordaoeletronico.buscaindexada.apresentacao.VisaoBuscaAcordao"
+  },
+  {
+    "pattern": "trf-4",
+    "destination": "https://jurisprudencia.trf4.jus.br/pesquisa/pesquisa.php?tipo=1"
+  },
+  {
+    "pattern": "trt-1",
+    "destination": "https://bibliotecadigital.trt1.jus.br/jspui/handle/1001/1978"
+  },
+  {
+    "pattern": "trt-23",
+    "destination": "https://pje.trt23.jus.br/jurisprudencia/"
+  },
+  {
+    "pattern": "stj",
+    "destination": "https://processo.stj.jus.br/SCON/"
+  }
+]
