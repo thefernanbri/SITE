@@ -1,5 +1,9 @@
 [
   {
+    "pattern": "tj-ap",
+    "destination": "https://tucujuris.tjap.jus.br/tucujuris/pages/consultar-jurisprudencia/consultar-jurisprudencia.html"
+  },
+  {
     "pattern": "tj-rs",
     "destination": "https://www.tjrs.jus.br/novo/buscas-solr/?aba=jurisprudencia&q=&conteudo_busca=ementa_completa"
   },
@@ -29,7 +33,11 @@
   },
   {
     "pattern": "tj-df",
-    "destination": "https://pesquisajuris.tjdft.jus.br/IndexadorAcordaos-web/sistj?visaoId=tjdf.sistj.acordaoeletronico.buscaindexada.apresentacao.VisaoBuscaAcordao"
+    "destination": "https://jurisdf.tjdft.jus.br/"
+  },
+  {
+    "pattern": "tj-go",
+    "destination": "https://projudi.tjgo.jus.br/ConsultaJurisprudencia/"
   },
   {
     "pattern": "trf-4",
@@ -38,6 +46,14 @@
   {
     "pattern": "trt-1",
     "destination": "https://bibliotecadigital.trt1.jus.br/jspui/handle/1001/1978"
+  },
+  {
+    "pattern": "trt-9",
+    "destination": "https://www.trt9.jus.br/jurisprudencia-nacional/home"
+  },
+  {
+    "pattern": "trt-11",
+    "destination": "https://consultajurisprudencia.trt11.jus.br/jurisprudencia/consulta.xhtml"
   },
   {
     "pattern": "trt-23",
