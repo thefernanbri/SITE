@@ -40,6 +40,10 @@
     "destination": "https://projudi.tjgo.jus.br/ConsultaJurisprudencia/"
   },
   {
+    "pattern": "tj-rn",
+    "destination": "https://jurisprudencia.tjrn.jus.br/"
+  },
+  {
     "pattern": "trf-4",
     "destination": "https://jurisprudencia.trf4.jus.br/pesquisa/pesquisa.php?tipo=1"
   },
@@ -62,5 +66,9 @@
   {
     "pattern": "stj",
     "destination": "https://processo.stj.jus.br/SCON/"
+  },
+  {
+    "pattern": "stf",
+    "destination": "https://www.stj.jus.br/SCON/"
   }
 ]
