@@ -12,6 +12,10 @@
     "destination": "https://portal.tjpr.jus.br/jurisprudencia/"
   },
   {
+    "pattern": "tj-sc",
+    "destination": "https://busca.tjsc.jus.br/jurisprudencia/#formulario_ancora"
+  },
+  {
     "pattern": "tj-sp",
     "destination": "https://esaj.tjsp.jus.br/cjsg/consultaCompleta.do"
   },
@@ -30,6 +34,10 @@
   {
     "pattern": "tj-mg",
     "destination": "https://www5.tjmg.jus.br/jurisprudencia/formEspelhoAcordao.do"
+  },
+  {
+    "pattern": "tj-mt",
+    "destination": "https://jurisprudencia.tjmt.jus.br/catalogo"
   },
   {
     "pattern": "tj-df",
