@@ -40,6 +40,10 @@
     "destination": "https://jurisprudencia.tjmt.jus.br/catalogo"
   },
   {
+    "pattern": "tj-ms",
+    "destination": "https://esaj.tjms.jus.br/cjsg/consultaCompleta.do"
+  },
+  {
     "pattern": "tj-df",
     "destination": "https://jurisdf.tjdft.jus.br/"
   },
