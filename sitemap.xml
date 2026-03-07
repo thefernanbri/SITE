@@ -7,24 +7,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bio.fernandobrito.adv.br/obras/</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://bio.fernandobrito.adv.br/obras/index2.html</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://bio.fernandobrito.adv.br/obras/mobile/</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://bio.fernandobrito.adv.br/curriculo/</loc>
     <lastmod>2026-01-31</lastmod>
     <changefreq>yearly</changefreq>
@@ -35,11 +17,5 @@
     <lastmod>2026-01-31</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://bio.fernandobrito.adv.br/carregamento2/</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
   </url>
 </urlset>
