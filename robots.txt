@@ -1,3 +1,64 @@
+# ============================================================
+# robots.txt — bio.fernandobrito.adv.br
+# ============================================================
+
+# Rastreadores de TREINAMENTO de IA — bloqueados
+# (Reserva de direitos: Diretiva EU Copyright 2019/790, Art. 4)
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: AI2Bot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+# Rastreadores de BUSCA/RETRIEVAL por IA — permitidos
+# (equivalente a permitir o Google: indexam, não treinam)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# Mecanismos de busca tradicionais — permitidos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Todos os outros — permitidos
 User-agent: *
 Allow: /
 

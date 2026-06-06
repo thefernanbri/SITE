@@ -1,0 +1,17 @@
+# Não exponha o ficheiro de passwords (nome com ou sem ponto inicial)
+<Files "htpasswd">
+    Require all denied
+</Files>
+<Files ".htpasswd">
+    Require all denied
+</Files>
+
+<IfModule mod_headers.c>
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-Content-Type-Options "nosniff"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# Limite de corpo (upload); ajuste se precisar de arquivos maiores
+LimitRequestBody 20971520

@@ -17,7 +17,9 @@
   <!-- Meta tags do Open Graph para a imagem de pré-visualização -->
   <meta property="og:title" content="Fernando Brito | Advogado">
   <meta property="og:description" content="Advogado que atende em todo o Paraná, oferecendo serviços nas áreas de direito civil, previdenciário, trabalhista e criminal. Atuação abrange cidades como Nova Aurora, Cafelândia, Corbélia, Cascavel, Ubiratã, Assis Chateubriand, Jesuítas, Formosa do Oeste, Campina da Lagoa, Toledo, Palotina e todo o Paraná de forma online.">
-  <meta property="og:image" content="https://bio.fernandobrito.adv.br/images/logo-200x.webp">
+  <meta property="og:image" content="https://bio.fernandobrito.adv.br/images/banner.webp">
+  <meta property="og:image:width" content="1328">
+  <meta property="og:image:height" content="475">
   <meta property="og:url" content="https://bio.fernandobrito.adv.br/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
@@ -25,12 +27,51 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Fernando Brito | Advogado">
   <meta name="twitter:description" content="Advogado que atende em todo o Paraná, oferecendo serviços nas áreas de direito civil, previdenciário, trabalhista e criminal. Atuação abrange cidades como Nova Aurora, Cafelândia, Corbélia, Cascavel, Ubiratã, Assis Chateubriand, Jesuítas, Formosa do Oeste, Campina da Lagoa, Toledo, Palotina e todo o Paraná de forma online.">
-  <meta name="twitter:image" content="https://bio.fernandobrito.adv.br/images/logo-200x.webp">
+  <meta name="twitter:image" content="https://bio.fernandobrito.adv.br/images/banner.webp">
   
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://bio.fernandobrito.adv.br/#person",
+        "name": "Fernando Brito",
+        "givenName": "Fernando",
+        "familyName": "Brito",
+        "jobTitle": "Advogado",
+        "description": "Advogado inscrito na OAB/PR sob o número 119.973, com atuação nas áreas de Direito Civil, Previdenciário, Trabalhista e Criminal no estado do Paraná.",
+        "url": "https://bio.fernandobrito.adv.br/",
+        "telephone": "+5545991164631",
+        "image": "https://bio.fernandobrito.adv.br/images/logo-200x.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Duque de Caxias, 586",
+          "addressLocality": "Nova Aurora",
+          "addressRegion": "PR",
+          "postalCode": "85410-000",
+          "addressCountry": "BR"
+        },
+        "hasCredential": {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Registro OAB/PR 119.973",
+          "credentialCategory": "OAB",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Ordem dos Advogados do Brasil – Seccional Paraná",
+            "url": "https://www.oabpr.org.br/"
+          }
+        },
+        "knowsAbout": ["Direito Civil","Direito Previdenciário","Direito Trabalhista","Direito Penal"],
+        "worksFor": { "@id": "https://bio.fernandobrito.adv.br/#legalservice" },
+        "sameAs": [
+          "https://share.google/QbZulh6GmMyNHly6P",
+          "https://www.linkedin.com/in/fernandobritopro/",
+          "https://www.facebook.com/fernandobritoadvogado",
+          "https://www.instagram.com/FernandoBrito.Adv",
+          "https://www.oabpr.org.br/servicos-consulta-de-advogados/lista-de-advogados/?nr_inscricao=119973"
+        ]
+      },
       {
         "@type": "LegalService",
         "@id": "https://bio.fernandobrito.adv.br/#legalservice",
@@ -49,34 +90,45 @@
           "postalCode": "85410-000",
           "addressCountry": "BR"
         },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -24.5419,
+          "longitude": -53.0661
+        },
         "areaServed": [
-          { "@type": "AdministrativeArea", "name": "Nova Aurora - PR" },
-          { "@type": "AdministrativeArea", "name": "Cafelândia - PR" },
-          { "@type": "AdministrativeArea", "name": "Corbélia - PR" },
-          { "@type": "AdministrativeArea", "name": "Cascavel - PR" },
-          { "@type": "AdministrativeArea", "name": "Ubiratã - PR" },
-          { "@type": "AdministrativeArea", "name": "Assis Chateaubriand - PR" },
-          { "@type": "AdministrativeArea", "name": "Jesuítas - PR" },
-          { "@type": "AdministrativeArea", "name": "Formosa do Oeste - PR" },
-          { "@type": "AdministrativeArea", "name": "Campina da Lagoa - PR" },
-          { "@type": "AdministrativeArea", "name": "Toledo - PR" },
-          { "@type": "AdministrativeArea", "name": "Palotina - PR" }
+          { "@type": "City", "name": "Nova Aurora", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Cafelândia", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Corbélia", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Cascavel", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Ubiratã", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Assis Chateaubriand", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Jesuítas", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Formosa do Oeste", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Campina da Lagoa", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Toledo", "addressRegion": "PR", "addressCountry": "BR" },
+          { "@type": "City", "name": "Palotina", "addressRegion": "PR", "addressCountry": "BR" }
         ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Áreas de Atuação",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Direito Civil", "description": "Assessoria em contratos, responsabilidade civil, direito de família e questões patrimoniais." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Direito Previdenciário", "description": "Aposentadorias, BPC, auxílio-doença, recursos ao INSS e revisão de benefícios." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Direito Trabalhista", "description": "Defesa dos direitos do trabalhador e do empregador na Justiça do Trabalho." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Direito Criminal", "description": "Defesa penal, habeas corpus, audiência de custódia e recursos em instâncias superiores." } }
+          ]
+        },
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
             "opens": "09:00",
             "closes": "18:00"
           }
         ],
+        "employee": { "@id": "https://bio.fernandobrito.adv.br/#person" },
         "sameAs": [
+          "https://share.google/QbZulh6GmMyNHly6P",
           "https://www.facebook.com/fernandobritoadvogado",
           "https://www.linkedin.com/in/fernandobritopro/",
           "https://www.instagram.com/FernandoBrito.Adv"
@@ -86,30 +138,70 @@
         "@type": "WebSite",
         "@id": "https://bio.fernandobrito.adv.br/#website",
         "url": "https://bio.fernandobrito.adv.br/",
-        "name": "Fernando Brito | Advogado",
+        "name": "Fernando Brito | Advogado OAB/PR 119.973",
         "inLanguage": "pt-BR",
-        "publisher": { "@id": "https://bio.fernandobrito.adv.br/#legalservice" }
+        "publisher": { "@id": "https://bio.fernandobrito.adv.br/#person" }
       },
       {
-        "@type": "WebPage",
-        "@id": "https://bio.fernandobrito.adv.br/#webpage",
+        "@type": "ProfilePage",
+        "@id": "https://bio.fernandobrito.adv.br/#profilepage",
         "url": "https://bio.fernandobrito.adv.br/",
-        "name": "Fernando Brito | Advogado",
+        "name": "Fernando Brito | Advogado OAB/PR 119.973",
         "isPartOf": { "@id": "https://bio.fernandobrito.adv.br/#website" },
-        "about": { "@id": "https://bio.fernandobrito.adv.br/#legalservice" },
+        "about": { "@id": "https://bio.fernandobrito.adv.br/#person" },
+        "mainEntity": { "@id": "https://bio.fernandobrito.adv.br/#person" },
         "inLanguage": "pt-BR",
+        "dateModified": "2026-06-06",
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://bio.fernandobrito.adv.br/images/logo-200x.webp"
         }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://bio.fernandobrito.adv.br/#faqpage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "O advogado Fernando Brito atende em quais áreas do Direito?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fernando Brito atua nas áreas de Direito Civil, Previdenciário (INSS, aposentadorias, benefícios), Trabalhista e Criminal no estado do Paraná."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual é o número de registro do advogado Fernando Brito na OAB?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fernando Brito está inscrito na Ordem dos Advogados do Brasil, Seccional Paraná, sob o número 119.973/PR."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O advogado Fernando Brito atende fora de Nova Aurora?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. Fernando Brito atende presencialmente em Nova Aurora, Cafelândia, Corbélia, Cascavel, Ubiratã, Assis Chateaubriand, Jesuítas, Formosa do Oeste, Campina da Lagoa, Toledo e Palotina. Também realiza atendimento online para todo o estado do Paraná."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Como agendar uma consulta com o advogado Fernando Brito?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O contato pode ser feito pelo WhatsApp ou pelo telefone (45) 9 9116-4631. Também é possível agendar um horário pelo link do Calendly disponível no site."
+            }
+          }
+        ]
       }
     ]
   }
   </script>
   <script src="./arquivos/js/shaka-player.compiled.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Fernando Brito | Advogado</title>
-  <link rel="canonical" href="https://fernandobrito.adv.br/" />
+  <title>Fernando Brito | Advogado OAB/PR 119.973 — Nova Aurora e Região Oeste do Paraná</title>
+  <link rel="canonical" href="https://bio.fernandobrito.adv.br/" />
   <link rel="alternate" hreflang="pt-BR" href="https://bio.fernandobrito.adv.br/" />
   <link rel="preload" href="./images/background-3_compressed.webp" as="image">
   <link href="./style.css" rel="stylesheet" type="text/css" />
@@ -132,9 +224,9 @@
   <div data-aos="fade-zoom-in" data-aos-delay="1000" id="container">
     <div id="infoContainer" class="infoContainer">
 	  <a href="https://fernandobrito.adv.br/" target="_blank">
-		<img src="./images/logo.webp" class="profileImage" alt="Advogado que atende em todo o Paraná, oferecendo serviços nas áreas de direito civil, previdenciário, trabalhista e criminal. Atuação abrange cidades como Nova Aurora, Cafelândia, Corbélia, Cascavel, Ubiratã, Assis Chateubriand, Jesuítas, Formosa do Oeste, Campina da Lagoa, Toledo, Palotina e todo o Paraná de forma online." />
+		<img src="./images/logo.webp" class="profileImage" alt="Fernando Brito Advogado OAB/PR 119.973 - Nova Aurora, Paraná" width="120" height="120" fetchpriority="high" loading="eager" decoding="sync" />
 	  </a>
-	  <img src="./images/banner.webp" class="box" alt="prestamos serviços como representação em processos judiciais, elaboração de contratos, assessoria jurídica, entre outros." />
+	  <img src="./images/banner.webp" class="box" alt="prestamos serviços como representação em processos judiciais, elaboração de contratos, assessoria jurídica, entre outros." width="438" height="157" loading="lazy" decoding="async" />
       <p class="username"><b>Fernando Brito</b></p>
 	  <a rel="nofollow" target="_blank" href="https://www.oabpr.org.br/servicos-consulta-de-advogados/lista-de-advogados/?nr_inscricao=119973&nome=&cidade=0&especialidade=0" title="Clique aqui para consultar a autenticidade no site da OAB/PR">
 	    <p class="OAB"><b>OAB Nº: 119.973/PR</b></p>
@@ -146,7 +238,7 @@
 				<div class="modal-telefone">
 					<a href="tel:045991164631">
 						<h1 class="modal__title">(45) 9 9116-4631</h1>
-						<img data-src="./images/QRTELEFONE.webp" class="QR" width="200" height="259" alt="Código QR Telefone do Advogado Fernando Brito, nova aurora, paraná, cafelândia, corbélia, cascavel, ubiratã, Assis Chateubriand, Jesuitas, Formosa do Oeste, Campina da Lagoa, Toledo e Palotina.">
+						<img data-src="./images/QRTELEFONE.webp" class="QR" width="200" height="259" alt="Código QR Telefone do Advogado Fernando Brito, nova aurora, paraná, cafelândia, corbélia, cascavel, ubiratã, Assis Chateubriand, Jesuitas, Formosa do Oeste, Campina da Lagoa, Toledo e Palotina." decoding="async">
 					</a>
 				  <p class="modal__text">Acesse com a câmera do seu celular para ligar imediatamente!<br>Se preferir ligue diretamente no número <b>(45) 9 9116-4631</b></p>
 				  <a href="#m3-c" class="link-2"></a>
@@ -157,7 +249,7 @@
 			  <div class="modal-container" id="m1-o" style="--m-background: transparent;">
 			  <div class="modal">
 				<h1 class="modal__title">QR CODE</h1>
-				<img data-src="./images/QR-SITE.webp" class="QR" width="200" height="259">
+				<img data-src="./images/QR-SITE.webp" class="QR" width="200" height="259" alt="Código QR para acessar o site de Fernando Brito Advogado" decoding="async">
 				<p class="modal__text">Acesse com a câmera do celular para acessar esse site</p>
 				<a href="#m1-c" class="link-2"></a>
 			  </div>
@@ -167,7 +259,7 @@
 			  <div class="modal-container" id="m2-o" style="--m-background: hsla(0, 0%, 0%, .4);">
 				<div class="modal">
 				  <h1 class="modal__title">Cartão de Visitas</h1>
-				  <img data-src="./images/QR.svg" class="QR" width="300" height="300" alt="Código QR para salvar o contato de um advogado de nova aurora, paraná, cafelândia, corbélia, cascavel, ubiratã, Assis Chateubriand, Jesuitas, Formosa do Oeste, Campina da Lagoa, Toledo e Palotina.">
+				  <img data-src="./images/QR.svg" class="QR" width="300" height="300" alt="Código QR para salvar o contato de um advogado de nova aurora, paraná, cafelândia, corbélia, cascavel, ubiratã, Assis Chateubriand, Jesuitas, Formosa do Oeste, Campina da Lagoa, Toledo e Palotina." decoding="async">
 				  <p class="modal__text">Acesse com a câmera do celular para salvar o contato em sua agenda!</p>
 				  <button class="modal__btn"><i class="fas fa-floppy-disk"></i> Salvar</button>
 				  <a href="#m2-c" class="link-2"></a>
@@ -260,7 +352,7 @@
 	
 	<!-- Selo OAB Honorários-->
 	<a href="https://www.oab.org.br/noticia/56943/a-dignidade-dos-honorarios-da-advocacia" target="_blank" class="linkOAB">
-		<img src="./images/Selo-OAB.webp" alt="Selo da OAB" class="SeloOAB" title="Campanha por Honorários Dignos">
+		<img src="./images/Selo-OAB.webp" alt="Selo da OAB" width="170" height="170" loading="lazy" decoding="async" class="SeloOAB" title="Campanha por Honorários Dignos">
 	</a>
 	<!-- Selo OAB Honorários -->
 	
@@ -268,6 +360,7 @@
 			<div id="footer">
 			  <p>© 2023-<span id="current-year"></span> FERNANDO BRITO ADVOCACIA. TODOS OS DIREITOS RESERVADOS.</p>
 			  <p>53.943.606/0001-27</p>
+			  <p style="margin-top:6px; font-size:12px;"><a href="./privacidade/" style="color:#ffcdd2; text-decoration:underline; text-transform:none;">Política de Privacidade</a></p>
 			</div>
 		</footer>
 			</a>

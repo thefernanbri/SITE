@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Política de Privacidade de Fernando Brito Advocacia (CNPJ 53.943.606/0001-27). Saiba como tratamos seus dados pessoais em conformidade com a LGPD (Lei nº 13.709/2018).">
+  <link rel="canonical" href="https://bio.fernandobrito.adv.br/privacidade/" />
+  <link rel="icon" href="../images/favicon.ico" />
+
+  <meta property="og:title" content="Política de Privacidade — Fernando Brito Advocacia">
+  <meta property="og:description" content="Como tratamos seus dados pessoais em conformidade com a LGPD.">
+  <meta property="og:url" content="https://bio.fernandobrito.adv.br/privacidade/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="https://bio.fernandobrito.adv.br/images/logo-200x.webp">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://bio.fernandobrito.adv.br/" },
+      { "@type": "ListItem", "position": 2, "name": "Política de Privacidade", "item": "https://bio.fernandobrito.adv.br/privacidade/" }
+    ]
+  }
+  </script>
+
+  <title>Política de Privacidade — Fernando Brito Advocacia</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --red-dark:   #620000;
+      --red-main:   #860000;
+      --red-light:  #a00000;
+      --bg-dark:    #0d0d0d;
+      --bg-card:    rgba(255,255,255,0.05);
+      --border:     rgba(134,0,0,0.35);
+      --text:       #e8e8e8;
+      --text-muted: #aaaaaa;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background-color: var(--bg-dark);
+      background-image: url('../images/background-3_compressed.webp');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center top;
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.75;
+    }
+
+    /* Overlay escuro sobre a imagem de fundo */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.78);
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* ── Header ───────────────────────────────────────────── */
+    header {
+      position: relative;
+      z-index: 10;
+      background: linear-gradient(135deg, var(--red-dark), var(--red-main));
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.7);
+    }
+
+    header a {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    header img {
+      height: 48px;
+      width: 48px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.3);
+    }
+
+    header .site-name {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.2;
+    }
+
+    header .site-sub {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.7);
+    }
+
+    header .back-link {
+      margin-left: auto;
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.85);
+      border: 1px solid rgba(255,255,255,0.3);
+      padding: 6px 14px;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    header .back-link:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    /* ── Main wrapper ─────────────────────────────────────── */
+    main {
+      position: relative;
+      z-index: 10;
+      max-width: 860px;
+      margin: 40px auto 60px;
+      padding: 0 20px;
+    }
+
+    /* ── Page title ───────────────────────────────────────── */
+    .page-title {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .page-title h1 {
+      font-size: 1.9rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+
+    .page-title .updated {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .page-title .updated span {
+      color: #e06060;
+    }
+
+    /* ── Cards ────────────────────────────────────────────── */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(6px);
+    }
+
+    .card h2 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #e06060;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+    }
+
+    .card h2 .num {
+      background: var(--red-main);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .card p {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .card ul, .card ol {
+      padding-left: 20px;
+      font-size: 0.92rem;
+      color: var(--text);
+    }
+
+    .card ul li, .card ol li {
+      margin-bottom: 6px;
+    }
+
+    .card strong {
+      color: #fff;
+    }
+
+    .card a {
+      color: #e06060;
+      text-decoration: underline;
+    }
+
+    /* ── Highlight box ────────────────────────────────────── */
+    .highlight {
+      background: rgba(134,0,0,0.25);
+      border-left: 3px solid var(--red-main);
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 14px 0;
+      font-size: 0.9rem;
+    }
+
+    /* ── Rights grid ──────────────────────────────────────── */
+    .rights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .right-item {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 0.88rem;
+    }
+
+    .right-item strong {
+      display: block;
+      color: #e06060;
+      margin-bottom: 4px;
+      font-size: 0.85rem;
+    }
+
+    /* ── Table ────────────────────────────────────────────── */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      font-size: 0.88rem;
+    }
+
+    .data-table th {
+      background: var(--red-main);
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 700;
+    }
+
+    .data-table td {
+      padding: 9px 14px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      color: var(--text);
+      vertical-align: top;
+    }
+
+    .data-table tr:nth-child(even) td {
+      background: rgba(255,255,255,0.025);
+    }
+
+    /* ── Footer ───────────────────────────────────────────── */
+    footer {
+      position: relative;
+      z-index: 10;
+      background: var(--red-main);
+      color: #fff;
+      text-align: center;
+      padding: 14px 20px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    footer a {
+      color: #ffcdd2;
+      text-decoration: none;
+    }
+
+    /* ── Scrollbar ────────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-thumb { background: #790000; border-radius: 100rem; }
+
+    /* ── Responsive ───────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .card { padding: 20px 18px; }
+      .page-title h1 { font-size: 1.5rem; }
+      header .back-link { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a href="https://bio.fernandobrito.adv.br/">
+      <img src="../images/logo-200x.webp" alt="Logo Fernando Brito Advocacia">
+      <div>
+        <div class="site-name">Fernando Brito Advocacia</div>
+        <div class="site-sub">OAB/PR 119.973</div>
+      </div>
+    </a>
+    <a href="https://bio.fernandobrito.adv.br/" class="back-link">← Voltar ao início</a>
+  </header>
+
+  <main>
+
+    <div class="page-title">
+      <h1>Política de Privacidade</h1>
+      <p class="updated">Última atualização: <span>06 de junho de 2026</span></p>
+    </div>
+
+    <!-- 1. IDENTIFICAÇÃO DO CONTROLADOR -->
+    <div class="card">
+      <h2><span class="num">1</span> Identificação do Controlador de Dados</h2>
+      <p>
+        Esta Política de Privacidade é aplicável ao site <strong>bio.fernandobrito.adv.br</strong>
+        e a todos os canais de atendimento vinculados a:
+      </p>
+      <div class="highlight">
+        <strong>Fernando Brito Advocacia</strong><br>
+        CNPJ: 53.943.606/0001-27<br>
+        Endereço: Rua Duque de Caxias, 586 — Nova Aurora, PR — CEP 85410-000<br>
+        Telefone/WhatsApp: (45) 9 9116-4631<br>
+        E-mail: <a href="mailto:contato@fernandobrito.adv.br">contato@fernandobrito.adv.br</a>
+      </div>
+      <p>
+        O responsável pelo tratamento de dados pessoais (Encarregado / DPO) pode ser
+        contactado pelo e-mail acima, com o assunto <strong>"Proteção de Dados — LGPD"</strong>.
+      </p>
+    </div>
+
+    <!-- 2. DADOS COLETADOS -->
+    <div class="card">
+      <h2><span class="num">2</span> Dados Pessoais Tratados</h2>
+      <p>
+        Coletamos apenas os dados estritamente necessários para a prestação dos serviços
+        advocatícios e para o funcionamento do site. Veja a relação abaixo:
+      </p>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Dado</th>
+            <th>Como é coletado</th>
+            <th>Finalidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nome e número de telefone</td>
+            <td>Contato via WhatsApp ou ligação</td>
+            <td>Atendimento, triagem do caso e comunicação</td>
+          </tr>
+          <tr>
+            <td>Endereço de e-mail</td>
+            <td>Contato por e-mail</td>
+            <td>Comunicação e envio de documentos</td>
+          </tr>
+          <tr>
+            <td>Data e horário do agendamento</td>
+            <td>Calendly (agendamento online)</td>
+            <td>Organização da agenda de consultas</td>
+          </tr>
+          <tr>
+            <td>Dados de navegação (IP, navegador, páginas visitadas)</td>
+            <td>Cloudflare (CDN e segurança)</td>
+            <td>Segurança, prevenção de ataques e desempenho</td>
+          </tr>
+          <tr>
+            <td>Cookies de sessão e preferências</td>
+            <td>Navegador do usuário</td>
+            <td>Funcionamento técnico do site</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top:14px;">
+        <strong>Não coletamos</strong> dados sensíveis (saúde, biometria, origem racial, convicção
+        religiosa, etc.) por meio deste site. Dados processuais compartilhados durante a
+        relação advocatícia são tratados sob sigilo profissional, conforme o Código de Ética
+        e Disciplina da OAB e o Estatuto da Advocacia (Lei nº 8.906/1994).
+      </p>
+    </div>
+
+    <!-- 3. FINALIDADE E BASE LEGAL -->
+    <div class="card">
+      <h2><span class="num">3</span> Finalidade do Tratamento e Base Legal (LGPD)</h2>
+      <p>Tratamos seus dados pessoais com as seguintes bases legais, conforme a Lei nº 13.709/2018:</p>
+      <ul>
+        <li>
+          <strong>Execução de contrato ou diligências pré-contratuais (Art. 7º, V):</strong>
+          para responder a consultas, elaborar propostas de honorários e prestar os serviços
+          advocatícios contratados.
+        </li>
+        <li>
+          <strong>Legítimo interesse (Art. 7º, IX):</strong> para garantir a segurança do site,
+          prevenir fraudes e melhorar a experiência de navegação, desde que não prevaleçam
+          sobre seus direitos e liberdades fundamentais.
+        </li>
+        <li>
+          <strong>Cumprimento de obrigação legal (Art. 7º, II):</strong> quando necessário para
+          atender exigências do Conselho Federal da OAB, da Receita Federal ou do Poder Judiciário.
+        </li>
+        <li>
+          <strong>Consentimento (Art. 7º, I):</strong> quando expressamente solicitado, como no
+          envio de materiais informativos jurídicos.
+        </li>
+      </ul>
+    </div>
+
+    <!-- 4. COMPARTILHAMENTO -->
+    <div class="card">
+      <h2><span class="num">4</span> Compartilhamento com Terceiros</h2>
+      <p>
+        Seus dados não são vendidos nem compartilhados para fins comerciais. O compartilhamento
+        ocorre apenas nas seguintes situações:
+      </p>
+      <ul>
+        <li>
+          <strong>Cloudflare, Inc.:</strong> provedor de CDN, segurança e proteção contra ataques
+          cibernéticos. Processa dados de navegação (IP, cabeçalhos HTTP) em conformidade com
+          suas próprias políticas de privacidade.
+        </li>
+        <li>
+          <strong>Calendly LLC:</strong> plataforma de agendamento online. Os dados inseridos
+          no formulário de agendamento estão sujeitos à Política de Privacidade do Calendly.
+        </li>
+        <li>
+          <strong>Meta Platforms (WhatsApp):</strong> comunicação via WhatsApp Business,
+          sujeita às políticas da Meta.
+        </li>
+        <li>
+          <strong>Google LLC (Google Fonts, Font Awesome via CDN):</strong> carregamento de
+          fontes e ícones. Pode registrar o endereço IP do visitante.
+        </li>
+        <li>
+          <strong>Autoridades e Poder Judiciário:</strong> quando exigido por lei, ordem
+          judicial ou por obrigação inerente ao exercício da advocacia.
+        </li>
+      </ul>
+      <p>
+        Todos os fornecedores listados possuem políticas de privacidade próprias e assumem
+        responsabilidade pelo tratamento que realizam.
+      </p>
+    </div>
+
+    <!-- 5. COOKIES -->
+    <div class="card">
+      <h2><span class="num">5</span> Cookies e Tecnologias Semelhantes</h2>
+      <p>
+        Este site utiliza cookies essenciais para seu funcionamento técnico. Não utilizamos
+        cookies de rastreamento publicitário ou ferramentas de análise comportamental de
+        terceiros (como Google Analytics) neste domínio.
+      </p>
+      <ul>
+        <li>
+          <strong>Cookies de sessão:</strong> temporários, apagados ao fechar o navegador.
+          Necessários para manter a navegação estável.
+        </li>
+        <li>
+          <strong>Cookies do Cloudflare:</strong> utilizados para segurança e desempenho
+          (ex.: <code>__cf_bm</code>, <code>cf_clearance</code>). São estritamente técnicos.
+        </li>
+      </ul>
+      <p>
+        Você pode configurar seu navegador para bloquear ou alertar sobre cookies. Observe que
+        o bloqueio de cookies essenciais pode afetar o funcionamento do site.
+      </p>
+    </div>
+
+    <!-- 6. RETENÇÃO -->
+    <div class="card">
+      <h2><span class="num">6</span> Prazo de Retenção dos Dados</h2>
+      <p>
+        Conservamos seus dados pelo tempo necessário para cumprir as finalidades descritas nesta
+        política, respeitando os seguintes critérios:
+      </p>
+      <ul>
+        <li>
+          <strong>Dados de clientes:</strong> pelo prazo prescricional aplicável à relação
+          jurídica (em geral, 5 anos após o encerramento do contrato, conforme o Código Civil
+          e o Estatuto da OAB).
+        </li>
+        <li>
+          <strong>Dados de navegação (logs do Cloudflare):</strong> conforme a política de
+          retenção do Cloudflare, em geral até 30 dias.
+        </li>
+        <li>
+          <strong>Agendamentos (Calendly):</strong> conforme a política de retenção do Calendly.
+        </li>
+        <li>
+          <strong>Dados de e-mail e WhatsApp:</strong> pelo tempo necessário ao atendimento
+          da solicitação e, caso resulte em relação contratual, pelo prazo acima indicado.
+        </li>
+      </ul>
+      <p>
+        Após o término do prazo de retenção, os dados são eliminados de forma segura ou
+        anonimizados, de modo que não seja possível identificar o titular.
+      </p>
+    </div>
+
+    <!-- 7. DIREITOS DO TITULAR -->
+    <div class="card">
+      <h2><span class="num">7</span> Seus Direitos como Titular de Dados</h2>
+      <p>
+        A Lei Geral de Proteção de Dados (Lei nº 13.709/2018) garante a você os seguintes
+        direitos, que podem ser exercidos a qualquer momento:
+      </p>
+      <div class="rights-grid">
+        <div class="right-item">
+          <strong>Confirmação e Acesso</strong>
+          Saber se tratamos seus dados e obter cópia deles.
+        </div>
+        <div class="right-item">
+          <strong>Correção</strong>
+          Solicitar a correção de dados incompletos, inexatos ou desatualizados.
+        </div>
+        <div class="right-item">
+          <strong>Anonimização ou Eliminação</strong>
+          Pedir o bloqueio, anonimização ou exclusão de dados desnecessários ou excessivos.
+        </div>
+        <div class="right-item">
+          <strong>Portabilidade</strong>
+          Receber seus dados em formato estruturado para transferência a outro fornecedor.
+        </div>
+        <div class="right-item">
+          <strong>Revogação do Consentimento</strong>
+          Retirar o consentimento a qualquer momento, quando o tratamento se basear nessa base legal.
+        </div>
+        <div class="right-item">
+          <strong>Oposição</strong>
+          Opor-se ao tratamento realizado com base em legítimo interesse, caso haja violação à LGPD.
+        </div>
+        <div class="right-item">
+          <strong>Informação sobre Compartilhamento</strong>
+          Saber com quais entidades públicas e privadas seus dados foram compartilhados.
+        </div>
+        <div class="right-item">
+          <strong>Reclamação à ANPD</strong>
+          Apresentar reclamação à Autoridade Nacional de Proteção de Dados
+          (<a href="https://www.gov.br/anpd" target="_blank" rel="noopener">gov.br/anpd</a>).
+        </div>
+      </div>
+      <div class="highlight" style="margin-top:18px;">
+        <strong>Como exercer seus direitos:</strong> envie um e-mail para
+        <a href="mailto:contato@fernandobrito.adv.br">contato@fernandobrito.adv.br</a>
+        com o assunto <em>"Proteção de Dados — LGPD"</em> e descreva sua solicitação.
+        Responderemos em até <strong>15 dias úteis</strong>.
+      </div>
+    </div>
+
+    <!-- 8. SEGURANÇA -->
+    <div class="card">
+      <h2><span class="num">8</span> Segurança dos Dados</h2>
+      <p>
+        Adotamos medidas técnicas e organizacionais adequadas para proteger seus dados pessoais
+        contra acesso não autorizado, perda, alteração, divulgação ou destruição, incluindo:
+      </p>
+      <ul>
+        <li>Transmissão via HTTPS (protocolo TLS) em todo o site.</li>
+        <li>Proteção por Cloudflare contra ataques DDoS e acesso malicioso.</li>
+        <li>Acesso restrito aos dados pelos profissionais do escritório, com obrigação de sigilo.</li>
+        <li>Sigilo profissional absoluto sobre informações processuais dos clientes, nos termos
+            do Art. 7º, II, do Estatuto da Advocacia e do Código de Ética da OAB.</li>
+      </ul>
+      <p>
+        Em caso de incidente de segurança que possa acarretar risco aos titulares, notificaremos
+        a ANPD e os titulares afetados nos prazos previstos na LGPD.
+      </p>
+    </div>
+
+    <!-- 9. MENORES -->
+    <div class="card">
+      <h2><span class="num">9</span> Menores de Idade</h2>
+      <p>
+        Este site não é direcionado a crianças ou adolescentes. Não coletamos intencionalmente
+        dados pessoais de menores de 18 anos sem o consentimento de seus responsáveis legais.
+        Caso identifiquemos que dados de menores foram coletados sem o devido consentimento,
+        procederemos à sua exclusão imediata.
+      </p>
+    </div>
+
+    <!-- 10. LINKS EXTERNOS -->
+    <div class="card">
+      <h2><span class="num">10</span> Links para Sites de Terceiros</h2>
+      <p>
+        Este site pode conter links para plataformas externas (LinkedIn, Instagram, Facebook,
+        Calendly, OAB/PR, etc.). Não nos responsabilizamos pelas práticas de privacidade
+        dessas plataformas. Recomendamos que você consulte a política de privacidade de cada
+        site que visitar.
+      </p>
+    </div>
+
+    <!-- 11. ALTERAÇÕES -->
+    <div class="card">
+      <h2><span class="num">11</span> Alterações nesta Política</h2>
+      <p>
+        Esta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças
+        nas práticas de tratamento de dados, na legislação ou nas funcionalidades do site.
+        A data da última atualização está indicada no início deste documento.
+      </p>
+      <p>
+        Alterações significativas serão comunicadas de forma destacada no site. O uso continuado
+        do site após a publicação das alterações implica a aceitação da política revisada.
+      </p>
+    </div>
+
+    <!-- 12. LEGISLAÇÃO APLICÁVEL -->
+    <div class="card">
+      <h2><span class="num">12</span> Legislação Aplicável e Foro</h2>
+      <p>
+        Esta Política é regida pela legislação brasileira, em especial pela
+        <strong>Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD)</strong>,
+        pelo <strong>Código de Defesa do Consumidor (Lei nº 8.078/1990)</strong> e pelo
+        <strong>Marco Civil da Internet (Lei nº 12.965/2014)</strong>.
+      </p>
+      <p>
+        Para dirimir controvérsias decorrentes desta Política, fica eleito o foro da Comarca
+        de <strong>Nova Aurora — PR</strong>, com renúncia expressa a qualquer outro, por mais
+        privilegiado que seja.
+      </p>
+    </div>
+
+    <!-- CONTATO FINAL -->
+    <div class="card" style="text-align:center; border-color: rgba(134,0,0,0.6);">
+      <h2 style="justify-content:center; border:none; padding:0; margin-bottom:10px;">
+        Dúvidas? Entre em contato
+      </h2>
+      <p>
+        <a href="mailto:contato@fernandobrito.adv.br">contato@fernandobrito.adv.br</a>
+        &nbsp;|&nbsp;
+        <a href="tel:04599116-4631">(45) 9 9116-4631</a>
+        &nbsp;|&nbsp;
+        <a href="https://bio.fernandobrito.adv.br/">bio.fernandobrito.adv.br</a>
+      </p>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>
+      © 2023–<span id="current-year"></span> Fernando Brito Advocacia — CNPJ 53.943.606/0001-27 — Todos os direitos reservados.
+      &nbsp;|&nbsp;
+      <a href="https://bio.fernandobrito.adv.br/">Voltar ao início</a>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
